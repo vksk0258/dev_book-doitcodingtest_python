@@ -31,7 +31,7 @@ o_matrix = [[0]*(size + 1)]
 s_matrix = [[0]*(size + 1) for _ in range(size + 1)]
 
 
-for i in range(count):
+for i in range(size):
     o_row = [0] + list(map(int,input().split()))
     o_matrix.append(o_row)
     
